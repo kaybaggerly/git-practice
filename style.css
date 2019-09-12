@@ -1,0 +1,129 @@
+h2 {
+  margin: 0px;
+}
+
+html {
+  background-color: #E6E6FA;
+}
+
+#container {
+  background-color:	#E6E6FA;
+   margin: 0 auto;
+   width: 960px;
+}
+
+header {
+  background-color: #E6E6FA;
+  display: flex;
+  justify-content: center;
+  height: 600 px;
+  align-items: center;
+}
+
+/* header img {
+  margin: 0px auto;
+  display: block;
+} */
+
+#bio {
+  display: flex;
+}
+#bio img {
+  width: 212px;
+  height: 212px;
+  border-radius: 50%;
+}
+#bio-details {
+  margin-left: 20px;
+  flex: 1;
+  border-radius: 25px;
+}
+
+#namedate {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+#dev-list {
+  background-color:	#D8BFD8;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#dev-list > h3 {
+  margin-top: 4px;
+  font-size: 1.25em;
+  border-radius: 25px;
+}
+
+ul {
+  font-size: 16px;
+  padding: 0px;
+  list-style-position: inside;
+  border-radius: 25px;
+}
+
+#tech {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  margin: 0px;
+  display: flex;
+  flex-flow: column;
+  max-width: 180px;
+}
+
+figure img {
+  max-height: 180px;
+}
+
+figcaption {
+  color: #fff;
+  text-align: center;
+  background: rgba(3, 3, 3,0.5);
+  position: relative; 
+  bottom: 25px;
+  padding: 6px;
+}
+
+h2, h3, h4, time {
+  color: #BA55D3;
+}
+
+time {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  margin-top: 6px;
+  font-size: 1.5em;
+}
+
+li {
+  color: #BA55D3;
+}
+
+#interest div
+{
+  background-color: #D8BFD8;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+#interest p {
+  color: #BA55D3;
+}
+
+footer {
+  color: #BA55D3;
+  font-size: 1.15em;
+  text-align: center;
+}
